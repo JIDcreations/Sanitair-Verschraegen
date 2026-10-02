@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T13:47:24+00:00",
+  "title": "Design System: Sanitair Verschraegen",
+  "extensions": {
+    "colorMeta": {
+      "blue": {
+        "role": "primary",
+        "displayName": "Logo Blue",
+        "canonical": "oklch(57.2% 0.125 237.2)",
+        "tonalRamp": [
+          "oklch(15% 0.125 237.2)",
+          "oklch(26% 0.125 237.2)",
+          "oklch(37% 0.125 237.2)",
+          "oklch(48% 0.125 237.2)",
+          "oklch(59% 0.125 237.2)",
+          "oklch(70% 0.125 237.2)",
+          "oklch(82% 0.125 237.2)",
+          "oklch(95% 0.125 237.2)"
+        ]
+      },
+      "blue-strong": {
+        "role": "primary",
+        "displayName": "Deep Fitting Blue",
+        "canonical": "oklch(49.6% 0.112 239.0)",
+        "tonalRamp": [
+          "oklch(15% 0.112 239.0)",
+          "oklch(26% 0.112 239.0)",
+          "oklch(37% 0.112 239.0)",
+          "oklch(48% 0.112 239.0)",
+          "oklch(59% 0.112 239.0)",
+          "oklch(70% 0.112 239.0)",
+          "oklch(82% 0.112 239.0)",
+          "oklch(95% 0.112 239.0)"
+        ]
+      },
+      "blue-deep": {
+        "role": "primary",
+        "displayName": "Night Main",
+        "canonical": "oklch(40.7% 0.087 238.8)",
+        "tonalRamp": [
+          "oklch(15% 0.087 238.8)",
+          "oklch(26% 0.087 238.8)",
+          "oklch(37% 0.087 238.8)",
+          "oklch(48% 0.087 238.8)",
+          "oklch(59% 0.087 238.8)",
+          "oklch(70% 0.087 238.8)",
+          "oklch(82% 0.087 238.8)",
+          "oklch(95% 0.087 238.8)"
+        ]
+      },
+      "field": {
+        "role": "primary",
+        "displayName": "Offerte Field",
+        "canonical": "oklch(54.0% 0.118 237.1)",
+        "tonalRamp": [
+          "oklch(15% 0.118 237.1)",
+          "oklch(26% 0.118 237.1)",
+          "oklch(37% 0.118 237.1)",
+          "oklch(48% 0.118 237.1)",
+          "oklch(59% 0.118 237.1)",
+          "oklch(70% 0.118 237.1)",
+          "oklch(82% 0.118 237.1)",
+          "oklch(95% 0.118 237.1)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Pipe-Drawing Ink",
+        "canonical": "oklch(27.2% 0.044 237.5)",
+        "tonalRamp": [
+          "oklch(15% 0.044 237.5)",
+          "oklch(26% 0.044 237.5)",
+          "oklch(37% 0.044 237.5)",
+          "oklch(48% 0.044 237.5)",
+          "oklch(59% 0.044 237.5)",
+          "oklch(70% 0.044 237.5)",
+          "oklch(82% 0.044 237.5)",
+          "oklch(95% 0.044 237.5)"
+        ]
+      },
+      "steel": {
+        "role": "neutral",
+        "displayName": "Steel",
+        "canonical": "oklch(48.4% 0.024 239.1)",
+        "tonalRamp": [
+          "oklch(15% 0.024 239.1)",
+          "oklch(26% 0.024 239.1)",
+          "oklch(37% 0.024 239.1)",
+          "oklch(48% 0.024 239.1)",
+          "oklch(59% 0.024 239.1)",
+          "oklch(70% 0.024 239.1)",
+          "oklch(82% 0.024 239.1)",
+          "oklch(95% 0.024 239.1)"
+        ]
+      },
+      "hair": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(90.1% 0.014 238.0)",
+        "tonalRamp": [
+          "oklch(15% 0.014 238.0)",
+          "oklch(26% 0.014 238.0)",
+          "oklch(37% 0.014 238.0)",
+          "oklch(48% 0.014 238.0)",
+          "oklch(59% 0.014 238.0)",
+          "oklch(70% 0.014 238.0)",
+          "oklch(82% 0.014 238.0)",
+          "oklch(95% 0.014 238.0)"
+        ]
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "oklch(96.4% 0.008 236.6)",
+        "tonalRamp": [
+          "oklch(15% 0.008 236.6)",
+          "oklch(26% 0.008 236.6)",
+          "oklch(37% 0.008 236.6)",
+          "oklch(48% 0.008 236.6)",
+          "oklch(59% 0.008 236.6)",
+          "oklch(70% 0.008 236.6)",
+          "oklch(82% 0.008 236.6)",
+          "oklch(95% 0.008 236.6)"
+        ]
+      },
+      "bg": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "oklch(99.1% 0.002 247.8)",
+        "tonalRamp": [
+          "oklch(15% 0.002 247.8)",
+          "oklch(26% 0.002 247.8)",
+          "oklch(37% 0.002 247.8)",
+          "oklch(48% 0.002 247.8)",
+          "oklch(59% 0.002 247.8)",
+          "oklch(70% 0.002 247.8)",
+          "oklch(82% 0.002 247.8)",
+          "oklch(95% 0.002 247.8)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(37% 0 0)",
+          "oklch(48% 0 0)",
+          "oklch(59% 0 0)",
+          "oklch(70% 0 0)",
+          "oklch(82% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "on-strong": {
+        "role": "neutral",
+        "displayName": "On Blue",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(37% 0 0)",
+          "oklch(48% 0 0)",
+          "oklch(59% 0 0)",
+          "oklch(70% 0 0)",
+          "oklch(82% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Error Red",
+        "canonical": "oklch(50.0% 0.182 29.5)",
+        "tonalRamp": [
+          "oklch(15% 0.182 29.5)",
+          "oklch(26% 0.182 29.5)",
+          "oklch(37% 0.182 29.5)",
+          "oklch(48% 0.182 29.5)",
+          "oklch(59% 0.182 29.5)",
+          "oklch(70% 0.182 29.5)",
+          "oklch(82% 0.182 29.5)",
+          "oklch(95% 0.182 29.5)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline (uppercase, three lines) and realisaties page head."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads in sentence case; offerte head in uppercase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Uppercase service names; step titles use a smaller sentence-case size."
+      },
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "Owners statement and gallery closing line, condensed 600."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text at 18px, 34-52ch measures."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Section intros and contact lead in steel."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Button labels."
+      }
+    },
+    "shadows": [
+      {
+        "name": "photo-lift",
+        "value": "0 24px 48px -20px rgb(10 50 75 / .45)",
+        "purpose": "Overlapping hero photo, paired with an 8px ground-coloured outline mat."
+      },
+      {
+        "name": "card-on-field",
+        "value": "0 40px 80px -40px rgb(10 50 75 / .55)",
+        "purpose": "Form card on the blue offerte field; removed under 900px."
+      },
+      {
+        "name": "floating-control",
+        "value": "0 6px 18px -8px rgb(10 50 75 / .5)",
+        "purpose": "Mark button floating on project photos."
+      },
+      {
+        "name": "menu-drop",
+        "value": "0 16px 24px -16px rgb(10 50 75 / .3)",
+        "purpose": "Open mobile menu panel."
+      },
+      {
+        "name": "nav-stuck",
+        "value": "0 1px 0 #d6e0e7",
+        "purpose": "Hairline under the sticky nav once it detaches."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "System easing for all transitions and entrance animations."
+      },
+      {
+        "name": "pipe-load",
+        "value": "1.1s cubic-bezier(.5, 0, .2, 1), 0.15s delay",
+        "purpose": "Main line flows out of the logo on load (clip-path reveal down to one viewport)."
+      },
+      {
+        "name": "rise",
+        "value": "0.9s ease-out, 28px translate, staggered 0.06s",
+        "purpose": "Hero and page-head text entrance."
+      },
+      {
+        "name": "unveil",
+        "value": "1.2s ease-out clip from bottom",
+        "purpose": "Hero photos entrance."
+      },
+      {
+        "name": "pipe-scroll",
+        "value": "animation-timeline: view() / named view-timelines",
+        "purpose": "Main line, branches, drops and rings draw with scroll where supported; otherwise fully drawn."
+      },
+      {
+        "name": "photo-zoom",
+        "value": "transform 1.2s ease-out, scale(1.035)",
+        "purpose": "Project tile hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "durations 0.01ms",
+        "purpose": "All motion collapses; pipes render fully drawn."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-nav",
+        "value": "1080px"
+      },
+      {
+        "name": "mobile",
+        "value": "900px"
+      },
+      {
+        "name": "narrow",
+        "value": "380px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The offerte action; Deep Fitting Blue fill, used in nav, hero, form and call bar.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Offerte aanvragen</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 24px;font:600 1.0625rem/1 'Barlow',system-ui,sans-serif;letter-spacing:.01em;text-decoration:none;white-space:nowrap;border:2px solid transparent;border-radius:3px;cursor:pointer;transition:background-color .25s cubic-bezier(0.16,1,0.3,1),color .25s cubic-bezier(0.16,1,0.3,1),border-color .25s cubic-bezier(0.16,1,0.3,1),transform .15s cubic-bezier(0.16,1,0.3,1)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:2px solid var(--blue,#0081b8);outline-offset:3px}.ds-btn-primary{background:var(--blue-strong,#00699a);color:var(--on-strong,#fff)}.ds-btn-primary:hover{background:var(--blue-deep,#0a4f73)}"
+    },
+    {
+      "name": "Line Button",
+      "kind": "button",
+      "refersTo": "button-line",
+      "description": "Secondary action, usually the phone call; 2px ink stroke that fills ink on hover.",
+      "html": "<a class=\"ds-btn-line\" href=\"#\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46Z\"/></svg>09 253 20 37</a>",
+      "css": ".ds-btn-line{display:inline-flex;align-items:center;gap:10px;min-height:54px;padding:0 24px;font:600 1.0625rem/1 'Barlow',system-ui,sans-serif;letter-spacing:.01em;text-decoration:none;border:2px solid var(--ink,#0f2a3a);border-radius:3px;color:var(--ink,#0f2a3a);background:transparent;transition:background-color .25s cubic-bezier(0.16,1,0.3,1),color .25s cubic-bezier(0.16,1,0.3,1)}.ds-btn-line:hover{background:var(--ink,#0f2a3a);color:var(--bg,#fbfcfd)}.ds-btn-line:focus-visible{outline:2px solid var(--blue,#0081b8);outline-offset:3px}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Offerte form field with label above; blue border and halo on focus.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-label\">Naam *</span><input class=\"ds-input\" placeholder=\"Je naam\"></label>",
+      "css": ".ds-field{display:grid;gap:8px;max-width:320px}.ds-label{font:600 1rem/1.3 'Barlow',system-ui,sans-serif;color:var(--ink,#0f2a3a)}.ds-input{font:400 1.0625rem/1.4 'Barlow',system-ui,sans-serif;color:var(--ink,#0f2a3a);background:var(--bg,#fbfcfd);border:1.5px solid #8a9aa5;border-radius:3px;padding:13px 14px;min-height:52px;transition:border-color .2s,box-shadow .2s}.ds-input:hover{border-color:var(--ink,#0f2a3a)}.ds-input:focus-visible{outline:none;border-color:var(--blue-strong,#00699a);box-shadow:0 0 0 3px color-mix(in srgb,var(--blue,#0081b8) 30%,transparent)}"
+    },
+    {
+      "name": "Choice Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Checkbox chip for the job type in the offerte form; fills Deep Fitting Blue when checked.",
+      "html": "<label class=\"ds-chip\"><input type=\"checkbox\" checked><span>Badkamer</span></label> <label class=\"ds-chip\"><input type=\"checkbox\"><span>Verwarming</span></label>",
+      "css": ".ds-chip{position:relative;display:inline-block}.ds-chip input{position:absolute;opacity:0;inset:0}.ds-chip span{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border:1.5px solid #8a9aa5;border-radius:3px;cursor:pointer;font:500 1rem/1 'Barlow',system-ui,sans-serif;color:var(--ink,#0f2a3a);transition:background-color .2s,border-color .2s,color .2s}.ds-chip span:hover{border-color:var(--ink,#0f2a3a)}.ds-chip input:checked+span{background:var(--blue-strong,#00699a);border-color:var(--blue-strong,#00699a);color:#fff}.ds-chip input:focus-visible+span{outline:2px solid var(--blue,#0081b8);outline-offset:2px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Sticky 76px bar: logo, links with scaling 2px blue underline, phone, small primary button.",
+      "html": "<nav class=\"ds-nav\"><strong class=\"ds-logo\">VERSCHRAEGEN</strong><a href=\"#\">Diensten</a><a href=\"#\" aria-current=\"page\">Werkwijze</a><a href=\"#\">Realisaties</a><a class=\"ds-nav-cta\" href=\"#\">Offerte aanvragen</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:28px;height:76px;padding:0 24px;background:var(--bg,#fbfcfd);box-shadow:0 1px 0 var(--hair,#d6e0e7);font:500 1.125rem/1.6 'Barlow',system-ui,sans-serif;color:var(--ink,#0f2a3a)}.ds-logo{font:700 1.5rem/1 'Barlow Condensed','Arial Narrow',sans-serif;color:var(--blue,#0081b8);margin-right:auto}.ds-nav a{position:relative;text-decoration:none;color:inherit;padding:8px 0}.ds-nav a:not(.ds-nav-cta)::after{content:'';position:absolute;left:0;right:0;bottom:2px;height:2px;background:var(--blue,#0081b8);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(0.16,1,0.3,1)}.ds-nav a:hover::after,.ds-nav a[aria-current=page]::after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--blue,#0081b8);outline-offset:3px}.ds-nav .ds-nav-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:3px;background:var(--blue-strong,#00699a);color:#fff;font-weight:600;font-size:1rem}.ds-nav .ds-nav-cta:hover{background:var(--blue-deep,#0a4f73)}"
+    },
+    {
+      "name": "Project Tile with Mark",
+      "kind": "card",
+      "refersTo": "mark",
+      "description": "Square-cornered project photo with the floating 'Dit wil ik ook' mark control.",
+      "html": "<div class=\"ds-proj\"><div class=\"ds-photo\"></div><button class=\"ds-mark\" aria-pressed=\"false\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,177.57-51.77-32.35a8,8,0,0,0-8.48,0L72,209.57V48H184Z\"/></svg>Dit wil ik ook</button></div>",
+      "css": ".ds-proj{position:relative;width:280px;height:220px;overflow:hidden;background:var(--mist,#eef4f8)}.ds-photo{position:absolute;inset:0;background:linear-gradient(160deg,#c9d6de,#8fa3b0);transition:transform 1.2s cubic-bezier(0.16,1,0.3,1)}.ds-proj:hover .ds-photo{transform:scale(1.035)}.ds-mark{position:absolute;right:10px;bottom:10px;display:inline-flex;align-items:center;gap:6px;height:40px;padding:0 14px 0 12px;border:0;border-radius:3px;cursor:pointer;background:rgb(255 255 255 / .94);color:#0f2a3a;font:600 .9375rem/1 'Barlow',system-ui,sans-serif;box-shadow:0 6px 18px -8px rgb(10 50 75 / .5);transition:background-color .2s,color .2s}.ds-mark:hover,.ds-mark[aria-pressed=true]{background:var(--blue-strong,#00699a);color:#fff}.ds-mark:focus-visible{outline:2px solid var(--blue,#0081b8);outline-offset:3px}"
+    },
+    {
+      "name": "Pipe Tap",
+      "kind": "custom",
+      "description": "Signature: a heading branched off the main line with an 18px elbow and a 12px ring fitting.",
+      "html": "<div class=\"ds-run\"><div class=\"ds-main\"></div><h3 class=\"ds-tap\">Verwarming</h3></div>",
+      "css": ".ds-run{position:relative;padding:72px 24px 32px 76px;background:var(--bg,#fbfcfd)}.ds-main{position:absolute;top:0;bottom:0;left:20px;width:2px;background:var(--blue,#0081b8)}.ds-tap{position:relative;margin:0;font:700 3rem/0.9 'Barlow Condensed','Arial Narrow',sans-serif;text-transform:uppercase;color:var(--ink,#0f2a3a)}.ds-tap::before{content:'';position:absolute;right:calc(100% + 14px);width:42px;bottom:calc(100% - 0.5em);height:56px;border-left:2px solid var(--blue,#0081b8);border-bottom:2px solid var(--blue,#0081b8);border-bottom-left-radius:18px;transform:translateY(1px)}.ds-tap::after{content:'';position:absolute;width:12px;height:12px;border-radius:50%;border:2px solid var(--blue,#0081b8);background:var(--bg,#fbfcfd);right:calc(100% + 8px);top:calc(0.5em - 6px)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "De leiding",
+    "overview": "The whole site is one installation. A single 2px brand-blue line leaves the VM monogram in the nav, runs down a fixed lane at the left of the content, and branches off with rounded 90-degree elbows and small ring fittings into every heading that matters: the hero headline, each service, the projects, and finally the offerte, where it turns white inside the one full blue field. The line is the argument that one firm connects every trade; nothing else on the page is ornament.\n\nEverything around the line stays quiet and technical. A near-white ground, deep blue-black ink, cool steel grey for secondary copy, and real project photography with square corners. Display type is Barlow Condensed, echoing the condensed lettering of the logo; running text is Barlow at a generous 18px for an older, often mobile audience. Density is low: large section gaps, long left indent, photos given real area.\n\nThe page is light only. A `[data-theme=\"dark\"]` override block and dark-logo images remain in the stylesheet and markup, but nothing sets the attribute; treat them as inert, not as a supported theme.",
+    "keyCharacteristics": [
+      "One blue hue, used for the line, the primary action and one closing field.",
+      "A pipe lane at the left; all content indents past it.",
+      "Condensed, heavy, often uppercase display type against plain Barlow text.",
+      "Square photos, 3px rectangles, curves reserved for the pipe.",
+      "Scroll-drawn line with a fully drawn static fallback."
+    ],
+    "rules": [
+      {
+        "name": "The One Blue Rule",
+        "body": "Blue is the only hue. Red exists only for form errors. No second accent, no gradients, no tinted section bands except the single blue offerte field.",
+        "section": "colors"
+      },
+      {
+        "name": "The Text-Blue Rule",
+        "body": "Logo Blue draws; Deep Fitting Blue carries text. Any blue fill under white text, or any blue text below large-text size, uses blue-strong.",
+        "section": "colors"
+      },
+      {
+        "name": "The Condensed Voice Rule",
+        "body": "Every heading is Barlow Condensed 700 with line-height at or under 1.05. Uppercase is for the hero, service names, the offerte head and page heads; section heads and step titles stay sentence case.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Phone Rule",
+        "body": "Phone numbers and counts use tabular numerals; the big phone in the offerte field is set at headline size in condensed 700.",
+        "section": "typography"
+      },
+      {
+        "name": "The Pipe Lane Rule",
+        "body": "Nothing but the line and its branches lives in the left lane. Every section, grid and gallery starts at the indent.",
+        "section": "layout"
+      },
+      {
+        "name": "The Sits-On-Top Rule",
+        "body": "A shadow is allowed only where one object overlaps another. Sections, lists and tiles stay flat.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Two Geometries Rule",
+        "body": "Rectangles are 3px or square; curves are pipework. No pill-shaped buttons or tags.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** branch every new major heading off the main line with the tap pattern (elbow on an 18px bend, 12px ring) instead of adding icons or labels above it.",
+      "**Do** start all content at the indent (76px, 44px under 900px) and keep the lane for pipework only.",
+      "**Do** use Deep Fitting Blue (#00699a) for any blue fill carrying text and keep Logo Blue (#0081b8) for line, icons and large display type.",
+      "**Do** keep photos square-cornered on a mist placeholder, and use real project photography.",
+      "**Do** keep the line fully drawn whenever scroll-driven animation is unsupported or reduced motion is requested.",
+      "**Do** keep phone and offerte one tap away: nav phone and button on desktop, fixed call bar under 900px."
+    ],
+    "donts": [
+      "**Don't** introduce a second accent hue, gradients or tinted bands; the blue offerte field is the only coloured section.",
+      "**Don't** draw pipe branches that do not connect back to the main line, or vary the 2px stroke.",
+      "**Don't** use pill-shaped buttons, tags or chips; rectangles stay at 3px.",
+      "**Don't** put shadows on flat content (sections, lists, tiles); shadows mark overlap only.",
+      "**Don't** set small text in Logo Blue; it is 4.23:1 on the ground.",
+      "**Don't** rely on the dark-theme override block; it is inert and the site ships light only."
+    ]
+  }
+}

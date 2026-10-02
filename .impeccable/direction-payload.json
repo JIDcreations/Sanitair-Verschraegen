@@ -1,0 +1,130 @@
+{
+  "title": "Kies de visuele wereld voor Sanitair Verschraegen",
+  "question": "The roll assigned Bestelwagen-belettering (trade van livery). Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Bestelwagen-belettering",
+      "kicker": "THE ROLL",
+      "lineage": "Flemish installer vans and magnetic site signs: blue panels, white condensed caps, a phone number you can read at 50 km/h",
+      "thesis": "The site is the company van: who, what and the phone number, readable at a glance, then their real work.",
+      "palette": ["#0080BC", "#0B4F78", "#5E6066", "#F3F5F7", "#FFFFFF"],
+      "materials": ["brand-blue panel fields", "white vinyl lettering in heavy condensed caps", "the grey service block from their logo", "real site photos as windows in the panel"],
+      "viewport": "Full-width brand-blue panel: huge VM monogram + VERSCHRAEGEN, the grey block naming the four trades, a big tap-to-call number and 'Offerte aanvragen'; a real bathroom photo cut into the panel like a van window.",
+      "risk": "Can tip into flat corporate-blue if the lettering scale and photo crops are timid.",
+      "raised": [
+        {"from": "challenger-kiosk-print", "raise": "Restricted ink set: blue, grey, white and the photos. Nothing else enters the page, not even a hover colour."},
+        {"from": "challenger-doujin-catalog", "raise": "Realisaties you mark ('Dit wil ik ook') travel into the offerte form, persisted locally."},
+        {"from": "challenger-cutting-bench", "raise": "One condensed grotesk throughout; rank by panel size, not by more fonts. Narrow screens drop columns, never type size."},
+        {"from": "challenger-film-bloom", "raise": "One reserved active signal (white panel inversion) used only for the current state."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Tegelraster",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "the tiled bathroom wall: 30x60 tiles, grout lines, the tiler's layout",
+      "thesis": "The page is a tiled wall: grout lines are the grid, every photo and fact sits on whole tiles.",
+      "palette": ["#0080BC", "#E9ECEE", "#5E6066", "#FFFFFF"],
+      "materials": ["grout-line grid", "matte tile fields", "photos set as whole tiles"],
+      "viewport": "A wall of tiles where some tiles are photos, one tile carries the logo, and the phone number fills a tile row.",
+      "risk": "The most familiar idea for a bathroom firm; risks reading as a tile-shop template."
+    },
+    {
+      "id": "challenger-cutting-bench",
+      "label": "Cutting bench select rail",
+      "verdict": "declined",
+      "lineage": "film editor's work print on pins",
+      "palette": ["#E8641E", "#0D0D0D", "#FFFFFF"],
+      "materials": ["perforated rail", "grease marks", "film grain"],
+      "thesis": "Projects strung as frames along a scrubbing rail.",
+      "viewport": "A perforated rail of project frames across an orange field.",
+      "risk": "Homeowners do not identify with film editing.",
+      "case": "Fuses: realisaties become frames on a rail, but clients don't recognise it and orange fights the brand.",
+      "kept": "One condensed grotesk, rank by size of panel.",
+      "hero": "https://impeccable.style/worlds/cards/operate-a-cutting-bench-select-rail-hero.webp"
+    },
+    {
+      "id": "challenger-doujin-catalog",
+      "label": "Convention circle catalog",
+      "verdict": "declined",
+      "lineage": "newsprint thumbnail catalog circled in biro",
+      "palette": ["#1A1A1A", "#E6E2DA", "#0080BC"],
+      "materials": ["newsprint", "stamp-size thumbnails", "biro circles"],
+      "thesis": "All projects as a dense grid you circle.",
+      "viewport": "Hundreds of tiny project thumbnails, a few circled.",
+      "risk": "Low-res photos look worse dense; newsprint cheapens the trade.",
+      "case": "Fuses: realisaties as a circle-able grid; loses on audience and clarity.",
+      "kept": "Mark projects you like and carry them into the quote.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-doujin-event-catalog-hero.webp"
+    },
+    {
+      "id": "challenger-kiosk-print",
+      "label": "Socialist kiosk print",
+      "verdict": "declined",
+      "lineage": "three-ink state packaging",
+      "palette": ["#B8B4AA", "#C8352B", "#20406A"],
+      "materials": ["recycled board", "off-register inks"],
+      "thesis": "Services as goods in a restricted-ink kiosk grid.",
+      "viewport": "A grid of service 'products' in three inks, no photos.",
+      "risk": "No photos would throw away their strongest proof.",
+      "case": "Fuses: services as kiosk cells; but bans the photos that sell the work.",
+      "kept": "A strictly restricted ink set.",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-socialist-kiosk-print-hero.webp"
+    },
+    {
+      "id": "challenger-film-bloom",
+      "label": "Hand-processed film bloom",
+      "verdict": "declined",
+      "lineage": "scratched 16mm with light leaks",
+      "palette": ["#9A9A96", "#121212", "#F07A2A"],
+      "materials": ["emulsion grain", "light leaks"],
+      "thesis": "Project photos as damaged film frames.",
+      "viewport": "A scratched film strip of bathrooms.",
+      "risk": "Damage aesthetics contradict a firm selling clean, finished work.",
+      "case": "Fuses poorly: wear and damage say the opposite of quality installation.",
+      "kept": "One reserved signal for the active state.",
+      "hero": "https://impeccable.style/worlds/cards/cinema-cinematography-editing-hand-processed-film-bloom-hero.webp"
+    },
+    {
+      "id": "challenger-cloud-quarry",
+      "label": "Cloud quarry",
+      "verdict": "declined",
+      "lineage": "surreal blocks cut from weather",
+      "palette": ["#F4F6F8", "#5FA8D8", "#6E7378"],
+      "materials": ["volumetric cloud", "stencil caps"],
+      "thesis": "Sections as blocks cut from clouds.",
+      "viewport": "A cumulus cliff with blue voids.",
+      "risk": "Surreal and vague; homeowners want concrete reassurance.",
+      "case": "Fuses poorly: dreamlike where the visitor needs facts.",
+      "kept": "Stacked blocks with deep gaps between sections.",
+      "hero": "https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-cloud-quarry-hero.webp"
+    },
+    {
+      "id": "challenger-hypercard",
+      "label": "HyperCard stack",
+      "verdict": "declined",
+      "lineage": "one-bit linked cards",
+      "palette": ["#000000", "#FFFFFF", "#9C9C9C"],
+      "materials": ["one-bit dither", "painted buttons"],
+      "thesis": "Every service and project as a linked card.",
+      "viewport": "A black-and-white card with painted buttons.",
+      "risk": "Nostalgic novelty; no fit with installers.",
+      "case": "Fuses poorly on both axes.",
+      "kept": "Every project addressable by its own link.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-hypercard-stack-shoebox-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "Installer website: full-width bathroom photo hero, three service cards, gallery grid, contact form.",
+    "palette": ["#FFFFFF", "#1F2933", "#0080BC"],
+    "materials": ["clean grid", "project photography"],
+    "viewport": "Large bathroom photo with headline overlay and a quote button.",
+    "risk": "Looks like every other installer; their small photos struggle as full-bleed hero."
+  },
+  "steer": true
+}
